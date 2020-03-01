@@ -32,8 +32,8 @@ Existing/similar Solutions:
    * Sign up for an email if a case appears in/near your city?  Or is that too backend focused?
      
    * Views:
-     * Calendar view - gives a new visual to understand trends over time, ex: https://observablehq.com/@d3/calendar-view, 
-     * Bar graph view - gives a visual of number of new cases and reported recovers, ex: https://observablehq.com/@mbostock/u-s-population-by-age-1850-2000
+     * Calendar view - gives a new visual to understand trends over time, [example](https://observablehq.com/@d3/calendar-view) 
+     * Bar graph view - gives a visual of number of new cases and reported recovers, [example](https://observablehq.com/@mbostock/u-s-population-by-age-1850-2000)
      
 
      
