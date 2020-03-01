@@ -15,6 +15,7 @@ A challenge given the extremely fluid global situation surrounding coronavirus (
 There are some existing sites that serve a similar function, listed below.  However, none of the websites that I found provide a robust data interactivity capability that might be useful to a user asking questions like: "are there reported cases near my home city/state/country?".  Nor do they provide some kind of alert mechanism for if confirmed cases are reported near their location.  Coronavirus Tracker aims to address these two questions.
 
 Existing/similar Solutions:
+  * [Johns Hopkins University Coronavirus dashboard](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
   * [World Health Organization (WHO) interactive map](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)
   * [World o Meter.com](https://www.worldometers.info/coronavirus/)
   
