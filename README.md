@@ -8,6 +8,7 @@ A challenge given the extremely fluid global situation surrounding coronavirus (
 
 * [Informal docs here](https://dev.to/pipedream/http-api-for-latest-wuhan-coronavirus-2019-ncov-data-20jj)
 * ([sample JSON API response](https://coronavirus.m.pipedream.net/)
+* (example table here)[https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_daily_reports/02-25-2020.csv]
 
 
 ## Existing Similar Solutions
@@ -21,15 +22,30 @@ Existing/similar Solutions:
   
   
  ## Functionality and MVP
- 
+   * Present Johns Hopkins API data using d3.js
+     
+   * Filter by:
+     * Country - bar graph/calendar of cases and recoveries over time
+     * City - bar graph/calendar of cases and recoveries over time
+     * Province/State - bar graph/calendar graph of cases and recoveries over time
+     
+   * Sign up for an email if a case appears in/near your city?  Or is that too backend focused?
+     
+   * Views:
+     * Calendar view - gives a new visual to understand trends over time, ex: https://observablehq.com/@d3/calendar-view, 
+     * Bar graph view - gives a visual of number of new cases and reported recovers, ex: https://observablehq.com/@mbostock/u-s-population-by-age-1850-2000
+     
+
+     
    
  ## Wireframes
+   
  
  
  ## Architecture and Technologies
- 
- 
- ## Implementation Timeline
+   * [d3.js](https://github.com/d3/d3/wiki)
+   * MongoDB - to store emails and the city associated with them?
+   * maybe something else I should specify??
  
  
  ## Bonus Features
