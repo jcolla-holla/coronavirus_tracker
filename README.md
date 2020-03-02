@@ -35,14 +35,14 @@ Existing/similar Solutions:
      * Calendar view - gives a new visual to understand trends over time, [example](https://observablehq.com/@d3/calendar-view) 
      * Bar graph view - gives a visual of number of new cases and reported recovers, [example](https://observablehq.com/@mbostock/u-s-population-by-age-1850-2000)
      
-
-     
    
  ## Wireframes
-   
- [Linked here main landing page](https://docs.google.com/drawings/d/1st4fHMBnersWbzgOq_HqmWvNfUzPX6ufuDfDCfDADI8/edit?usp=sharing)
  
- [Country Page linked here](https://docs.google.com/drawings/d/1LUOOx6sD6pSZV9SVLFkmSwXe4uUGlLaqr76Zo2sGibk/edit?usp=sharing)
+   * Landing Page Overview
+ ![](mockups/Landing%20Overview.png)
+ 
+   * Country Show Page
+ ![](mockups/Country%20Show%20Page.png)
  
  ## Architecture and Technologies
    * [d3.js](https://github.com/d3/d3/wiki)
