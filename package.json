@@ -1,0 +1,39 @@
+{
+  "name": "coronavirus_tracker",
+  "version": "1.0.0",
+  "description": "Coronavirus reverberates through news cycles around the world, with varying levels of concern from utter hysteria to total indifference.  The goal of this project, *Coronavirus Tracker*, is to provide a data-centric, interactive overview of the coronavirus spread to counter narratives that are not based in fact/numbers.",
+  "main": "app.js",
+  "dependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.0.6",
+    "browserify": "^16.5.0",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "npm": "^6.14.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
+    "start": "node app.js",
+    "webpack": "webpack --watch --mode=development",
+    "collin_start": "webpack-dev-server --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcolla-holla/coronavirus_tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcolla-holla/coronavirus_tracker/issues"
+  },
+  "homepage": "https://github.com/jcolla-holla/coronavirus_tracker#readme"
+}
